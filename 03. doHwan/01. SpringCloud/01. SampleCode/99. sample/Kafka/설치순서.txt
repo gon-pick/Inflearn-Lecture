@@ -1,0 +1,3 @@
+1. kafka 다운로드
+2. maria db 다운로드
+3 kafka Connect 설치

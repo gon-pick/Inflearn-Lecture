@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<h1>hi</h1>
+</body>
+<script>
+    $(function() {
+       $.ajax("http://localhost:8080/hello")
+           .done(function(msg) {
+               alert(msg)
+           })
+           .fail(function (){
+               alert("fail");
+           });
+    });
+</script>
+</html>

@@ -1,0 +1,4 @@
+1. cmd 에서 다음 명령어 사용
+ curl -sSL https://zipkin.io/quickstart.sh | bash -s
+2. 다음 명령어로 jar 파일 실행 
+ java -jar zipkin.jar

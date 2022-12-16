@@ -1,0 +1,34 @@
+server:
+  port: 8088
+
+
+logging:
+  level:
+    org.springframework: DEBUG
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+  messages:
+    basename: messages
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  security:
+    user:
+      name: username
+      password: password
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -1,0 +1,4 @@
+1. Run
+
+2. maven or gradle
+ - mvn spring-boot:run

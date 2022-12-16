@@ -1,0 +1,9 @@
+2022-09-05 00:41:17.058  INFO 10964 --- [main] c.e.springinit.SpringinitApplication     : Starting SpringinitApplication using Java 18.0.2 on DESKTOP-B30D1QJ with PID 10964 (E:\01. Study_Project\01. Study\01. 2022\02. 2022하반기\01. 인프런강의\01. 백기선\백기선의 스프링 부트\예제코드\springinit\target\classes started by tjfbw in E:\01. Study_Project\01. Study\01. 2022\02. 2022하반기\01. 인프런강의\01. 백기선\백기선의 스프링 부트\예제코드\springinit)
+2022-09-05 00:41:17.060 DEBUG 10964 --- [main] c.e.springinit.SpringinitApplication     : Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-05 00:41:17.061  INFO 10964 --- [main] c.e.springinit.SpringinitApplication     : The following 1 profile is active: "test"
+2022-09-05 00:41:17.495  INFO 10964 --- [main] c.e.springinit.SpringinitApplication     : Started SpringinitApplication in 0.691 seconds (JVM running for 1.168)
+2022-09-05 00:41:17.497 DEBUG 10964 --- [main] com.example.springinit.SampleRunner      : =====================
+2022-09-05 00:41:17.497 DEBUG 10964 --- [main] com.example.springinit.SampleRunner      : hello test
+2022-09-05 00:41:17.497 DEBUG 10964 --- [main] com.example.springinit.SampleRunner      : keesun test
+2022-09-05 00:41:17.497 DEBUG 10964 --- [main] com.example.springinit.SampleRunner      : keesun test Baik
+2022-09-05 00:41:17.497 DEBUG 10964 --- [main] com.example.springinit.SampleRunner      : =====================

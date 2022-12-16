@@ -1,0 +1,13 @@
+1. jks 파일 생성 방법 (원하는 폴더로 가서 cmd 관리자로 실행) : *개인키 생성
+keytool -genkeypair -alias apiEncryptionKey -keyalg RSA -dname "CN=Kenneth Lee, OU=API Development, O=joneconsulting.co.kr, L=Seoul, C=KR" -keypass "test1234" -keystore apiEncryptionKey.jks -storepass "test1234"
+
+2. jks -> cer로 변경 : *인증서 파일
+keytool -export -alias apiEncryptionKey -keystore apiEncryptionKey.jks -rfc -file trustServer.cer
+
+3.cer -> jks로 변경 : *공개키 생성
+keytool -import -alias trustServer -file trustServer.cer -keystore publicKey.jks
+
+4.파일상세 보기
+keytool -list -keystore publicKey.jks
+
+**RSA는 암호화를 공개키로 했으면 복호화를 개인키로 해야한다. (암 복호화 키가 서로 다르다.)
